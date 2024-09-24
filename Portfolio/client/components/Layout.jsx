@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../src/logo.png'
+
 /**
  * Filename: Layout.jsx
  * Student’s Name: Suin Lee 
@@ -12,8 +14,7 @@ export default function Layout() {
         <>
         <header>
             <div className="logo">
-                {/* Replace this with your logo */}
-                <img src="../src/logo.png" alt="My Portfolio Logo" />
+                <img src={logo} width={100}></img>
             </div>
 
             <nav>
