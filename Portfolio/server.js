@@ -16,7 +16,7 @@ mongoose.connection.on('error', () => {
 })
 
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to User application." });
+    res.json({ message: "Welcome to Suin Portfolio."});
 });
 
 app.listen(config.port, (err) => {
